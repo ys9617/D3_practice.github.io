@@ -10,7 +10,7 @@
 
     <script>
 
-        d3.csv("mydata.csv", function(data) { 
+        d3.json("mydata.json", function(data) { 
 
             var canvas = d3.select("body").append("svg")
                             .attr("width", 500)
